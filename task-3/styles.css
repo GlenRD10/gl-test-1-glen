@@ -1,60 +1,30 @@
-body{
-    margin: 0;
-    padding: 0;
+* {
+    box-sizing: border-box;
 }
-#container {
+/* #box{
+    width: 300px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+    flex: 1;
+}  */
+#first{background: red;font-size: 30px;}
+#second{background: green;font-size: 60px;}
+#third{background: yellow;font-size: 90px;}
+#fourth{background: brown;font-size: 120px;}
+#fifth{background: orange; font-size: 160px;}
+#sixth{background: purple;font-size: 200px;}
+#seventh{background: black;font-size: 160px;}
+#eighth{background: magenta;font-size: 120px;}
+#ninth{background: silver;font-size: 90px;}
+#tenth{background: teal;font-size: 60px;}
+
+#container{
     display: flex;
+    border: 5px solid black;
+    height: 100vh;
     justify-content: center;
     align-items: center;
-}
-
-#first {
-    background-color: red;
-    height: 10rem;
-    width: 10%;
-}
-#second {
-    background-color: blue;
-    height: 10rem;
-    width: 10%;
-}
-#third {
-    background-color: green;
-    height: 10rem;
-    width: 10%;
-}
-#fourth {
-    background-color: violet;
-    height: 10rem;
-    width: 10%;
-}
-#fifth {
-    background-color: black;
-    height: 10rem;
-    width: 10%;
-}
-#sixth {
-    background-color: pink;
-    height: 10rem;
-    width: 10%;
-}
-#seventh {
-    background-color: brown;
-    height: 10rem;
-    width: 10%;
-}
-#eighth {
-    background-color: yellow;
-    height: 10rem;
-    width: 10%;
-}
-#ninth {
-    background-color: purple;
-    height: 10rem;
-    width: 10%;
-}
-#tenth {
-    background-color: orange;
-    height: 10rem;
-    width: 10%;
 }
