@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first {
+    background-color: red;
+    height: 10rem;
+    width: 10%;
+}
+#second {
+    background-color: blue;
+    height: 10rem;
+    width: 10%;
+}
+#third {
+    background-color: green;
+    height: 10rem;
+    width: 10%;
+}
+#fourth {
+    background-color: violet;
+    height: 10rem;
+    width: 10%;
+}
+#fifth {
+    background-color: black;
+    height: 10rem;
+    width: 10%;
+}
+#sixth {
+    background-color: pink;
+    height: 10rem;
+    width: 10%;
+}
+#seventh {
+    background-color: brown;
+    height: 10rem;
+    width: 10%;
+}
+#eighth {
+    background-color: yellow;
+    height: 10rem;
+    width: 10%;
+}
+#ninth {
+    background-color: purple;
+    height: 10rem;
+    width: 10%;
+}
+#tenth {
+    background-color: orange;
+    height: 10rem;
+    width: 10%;
+}
